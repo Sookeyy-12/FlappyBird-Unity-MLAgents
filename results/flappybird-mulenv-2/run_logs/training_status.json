@@ -1,0 +1,65 @@
+{
+    "FlappyBird": {
+        "checkpoints": [
+            {
+                "steps": 3963,
+                "file_path": "results\\flappybird-mulenv-2\\FlappyBird\\FlappyBird-3963.onnx",
+                "reward": -0.857752682701234,
+                "creation_time": 1694554245.4687247,
+                "auxillary_file_paths": [
+                    "results\\flappybird-mulenv-2\\FlappyBird\\FlappyBird-3963.pt"
+                ]
+            },
+            {
+                "steps": 3999954,
+                "file_path": "results\\flappybird-mulenv-2\\FlappyBird\\FlappyBird-3999954.onnx",
+                "reward": null,
+                "creation_time": 1694579716.0680559,
+                "auxillary_file_paths": [
+                    "results\\flappybird-mulenv-2\\FlappyBird\\FlappyBird-3999954.pt"
+                ]
+            },
+            {
+                "steps": 4499953,
+                "file_path": "results\\flappybird-mulenv-2\\FlappyBird\\FlappyBird-4499953.onnx",
+                "reward": null,
+                "creation_time": 1694582048.9981158,
+                "auxillary_file_paths": [
+                    "results\\flappybird-mulenv-2\\FlappyBird\\FlappyBird-4499953.pt"
+                ]
+            },
+            {
+                "steps": 4999970,
+                "file_path": "results\\flappybird-mulenv-2\\FlappyBird\\FlappyBird-4999970.onnx",
+                "reward": null,
+                "creation_time": 1694584427.4754233,
+                "auxillary_file_paths": [
+                    "results\\flappybird-mulenv-2\\FlappyBird\\FlappyBird-4999970.pt"
+                ]
+            },
+            {
+                "steps": 5000034,
+                "file_path": "results\\flappybird-mulenv-2\\FlappyBird\\FlappyBird-5000034.onnx",
+                "reward": null,
+                "creation_time": 1694584427.5475342,
+                "auxillary_file_paths": [
+                    "results\\flappybird-mulenv-2\\FlappyBird\\FlappyBird-5000034.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 5000034,
+            "file_path": "results\\flappybird-mulenv-2\\FlappyBird.onnx",
+            "reward": null,
+            "creation_time": 1694584427.5475342,
+            "auxillary_file_paths": [
+                "results\\flappybird-mulenv-2\\FlappyBird\\FlappyBird-5000034.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.0.1+cu118"
+    }
+}

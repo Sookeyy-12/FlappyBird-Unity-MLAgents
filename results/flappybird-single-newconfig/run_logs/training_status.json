@@ -1,0 +1,65 @@
+{
+    "FlappyBird": {
+        "checkpoints": [
+            {
+                "steps": 1999953,
+                "file_path": "results\\flappybird-single-newconfig\\FlappyBird\\FlappyBird-1999953.onnx",
+                "reward": null,
+                "creation_time": 1694610248.7938745,
+                "auxillary_file_paths": [
+                    "results\\flappybird-single-newconfig\\FlappyBird\\FlappyBird-1999953.pt"
+                ]
+            },
+            {
+                "steps": 2499955,
+                "file_path": "results\\flappybird-single-newconfig\\FlappyBird\\FlappyBird-2499955.onnx",
+                "reward": null,
+                "creation_time": 1694612009.1471415,
+                "auxillary_file_paths": [
+                    "results\\flappybird-single-newconfig\\FlappyBird\\FlappyBird-2499955.pt"
+                ]
+            },
+            {
+                "steps": 2999990,
+                "file_path": "results\\flappybird-single-newconfig\\FlappyBird\\FlappyBird-2999990.onnx",
+                "reward": null,
+                "creation_time": 1694613763.170823,
+                "auxillary_file_paths": [
+                    "results\\flappybird-single-newconfig\\FlappyBird\\FlappyBird-2999990.pt"
+                ]
+            },
+            {
+                "steps": 3499937,
+                "file_path": "results\\flappybird-single-newconfig\\FlappyBird\\FlappyBird-3499937.onnx",
+                "reward": null,
+                "creation_time": 1694615526.5180666,
+                "auxillary_file_paths": [
+                    "results\\flappybird-single-newconfig\\FlappyBird\\FlappyBird-3499937.pt"
+                ]
+            },
+            {
+                "steps": 3944048,
+                "file_path": "results\\flappybird-single-newconfig\\FlappyBird\\FlappyBird-3944048.onnx",
+                "reward": null,
+                "creation_time": 1694617213.423954,
+                "auxillary_file_paths": [
+                    "results\\flappybird-single-newconfig\\FlappyBird\\FlappyBird-3944048.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 3944048,
+            "file_path": "results\\flappybird-single-newconfig\\FlappyBird.onnx",
+            "reward": null,
+            "creation_time": 1694617213.423954,
+            "auxillary_file_paths": [
+                "results\\flappybird-single-newconfig\\FlappyBird\\FlappyBird-3944048.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.0.1+cu118"
+    }
+}
