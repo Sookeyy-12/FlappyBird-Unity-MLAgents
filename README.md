@@ -57,3 +57,21 @@ The Flappy Bird AI agent relies on ray perception sensors as its "eyes" to perce
 enabling the agent to make informed decisions during gameplay. These observations are crucial for training the agent to navigate the Flappy Bird environment effectively.
 
 <img width="275" alt="image" src="https://github.com/claylo/yaml-include/assets/82956207/89ad6671-4478-4487-b21d-d51ac29c8dbd">
+
+### Reward System
+
+The reward system in the Flappy Bird AI project encourages specific behaviors:
+
+- Staying Alive: The agent receives a small, positive reward of `0.01` for each time step it remains alive.
+- Passing a Pair of Pipes: Successfully navigating through a pair of pipes yields a `+1` reward.
+- Crashing/Dying: Collisions result in a `-5` penalty.
+
+These rewards guide the AI agent's learning process, promoting survival, skillful pipe passage, and avoidance of collisions for optimal gameplay.
+
+### Action Space
+
+In the Flappy Bird AI project, the action space closely mimics the original game. The agent's sole action is to flap its wings, inspired by the classic Flappy Bird gameplay.
+
+- Flapping: The agent can execute the action of flapping its wings, allowing it to control its upward movement in response to the game environment.
+
+This simplified action space encourages the AI agent to master the core gameplay mechanics of the original Flappy Bird game.
